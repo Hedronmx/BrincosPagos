@@ -1,5 +1,5 @@
 <template v-slot:footer>
-  <el-dialog title="Registro de pago" v-model="dialogVisibility" :before-close="prevencion_cerrar">
+  <el-dialog title="Registro de pago" v-model="dialogVisibility" width="80%" append-to-body="true" :before-close="prevencion_cerrar">
     <el-form :model="forma" :label-position="'top'">
       <el-form-item label="Nombre del Cliente">
         <el-input v-model="forma.nombre" autocomplete="off"></el-input>
